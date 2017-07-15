@@ -1,6 +1,13 @@
 # package directories
 node_modules
-jspm_packages
 
 # Serverless directories
 .serverless
+
+# gatsby stuff
+public/
+.cache/
+
+# package manager files
+yarn.lock
+package-lock.json
