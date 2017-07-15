@@ -12,7 +12,6 @@ function processItem(item) {
     id: item.id,
     children: [],
     parent: '__SOURCE__',
-    content: 'nic',
     weigth: item.weigth,
     description: item.description,
     name: item.name,
