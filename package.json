@@ -1,15 +1,15 @@
 {
-  "name": "gatsby-starter-default",
-  "description": "Gatsby default starter",
+  "name": "antonio",
+  "description": "Website for Antonio Pizza",
   "version": "1.0.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "author": "Martin Nuc <martin@nuc.cz>",
   "dependencies": {
-    "gatsby": "^1.0.1",
-    "gatsby-link": "^1.0.1",
-    "gatsby-plugin-react-helmet": "^1.0.1"
-  },
-  "devDependencies": {
-    "gh-pages": "^0.12.0"
+    "axios": "^0.16.2",
+    "gatsby": "^1.2.0",
+    "gatsby-link": "^1.0.9",
+    "gatsby-plugin-react-helmet": "^1.0.1",
+    "googleapis": "^20.1.0",
+    "serverless": "^1.17.0"
   },
   "keywords": [
     "gatsby"
@@ -18,8 +18,8 @@
   "main": "n/a",
   "scripts": {
     "build": "gatsby build",
-    "deploy": "gatsby build --prefix-paths && gh-pages -d public",
     "develop": "gatsby develop",
+    "deploy": "serverless deploy",
     "format": "prettier --trailing-comma es5 --no-semi --single-quote --write \"pages/*.js\" \"utils/*.js\" \"wrappers/*.js\" \"html.js\"",
     "test": "echo \"Error: no test specified\" && exit 1"
   }

@@ -1,10 +1,21 @@
-# gatsby-starter-default
-The default Gatsby starter
+# Website for Antonio Pizza
 
-Install this starter (assuming Gatsby is installed) by running from your CLI:
-```
-gatsby new gatsby-example-site
-```
+This is a proof of concept.
+
+## Architecture
+
+Menu is stored in Google Spreadsheet. It is loaded over AWS Lambda.
+
+## Develop
+
+- `yarn`
+- `yarn develop`
+
 ## Deploy
 
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/gatsbyjs/gatsby-starter-default)
+`yarn deploy`
+
+## To-Do
+
+- deployment to webhosting
+- layout, texts and design

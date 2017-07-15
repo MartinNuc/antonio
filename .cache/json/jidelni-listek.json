@@ -1,0 +1,36 @@
+{
+    "data": {
+        "allFood": {
+            "edges": [
+                {
+                    "node": {
+                        "id": "1",
+                        "weigth": "200g",
+                        "price": "150,-",
+                        "description": "smažený s hranolkama",
+                        "name": "Řízek"
+                    }
+                },
+                {
+                    "node": {
+                        "id": "2",
+                        "weigth": "300g",
+                        "price": "139,-",
+                        "description": "houby a maso",
+                        "name": "Pizza Antonio"
+                    }
+                },
+                {
+                    "node": {
+                        "id": "3",
+                        "weigth": "1 cl",
+                        "price": "30,-",
+                        "description": "",
+                        "name": "Coca cola"
+                    }
+                }
+            ]
+        }
+    },
+    "pathContext": {}
+}

@@ -1,0 +1,22 @@
+[
+    {
+        "componentChunkName": "page-component---src-pages-404-js",
+        "jsonName": "404.json",
+        "path": "/404/"
+    },
+    {
+        "componentChunkName": "page-component---src-pages-index-js",
+        "jsonName": "index.json",
+        "path": "/"
+    },
+    {
+        "componentChunkName": "page-component---src-pages-jidelni-listek-js",
+        "jsonName": "jidelni-listek.json",
+        "path": "/jidelni-listek/"
+    },
+    {
+        "componentChunkName": "page-component---src-pages-404-js",
+        "jsonName": "404-html.json",
+        "path": "/404.html"
+    }
+]

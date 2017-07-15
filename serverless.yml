@@ -1,0 +1,18 @@
+service: antonio-menu-loader
+
+provider:
+  name: aws
+  runtime: nodejs6.10
+  region: eu-central-1
+
+functions:
+  loadMenu:
+    handler: lambda.loadMenu
+    environment:
+      AUTH_KEY: AIzaSyBmvaPWhjdGK2KO0ek0LUl0C_zc3mbVQwA
+      SPREADSHEET_ID: 1QGk4814LPhvy3DWEIPxGp7ZqGKDgB6AtJcF6ow-svWM
+    events:
+      - http:
+          path: menu
+          method: get
+          cors: true
